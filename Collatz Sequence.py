@@ -1,3 +1,5 @@
+"""Collatzs the input number recursively until the result reaches 1."""
+
 def collatz(number):
   global result
   if number % 2 == 0:
